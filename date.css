@@ -1,0 +1,79 @@
+body{
+    margin: 0%;
+    background-image: url(image/site-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+
+
+.top-add p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-shadow: 0px 0px 1.5px rgb(248, 244, 244);
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(90deg, red, green);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.color-highlight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+}
+.half-width img{
+    width: 100%;
+    height: 450px;
+    border: 0px solid black;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 40px;
+    padding-top: 1%;
+} 
+.single-experience{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5px;
+    height: 70%;
+}  
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.top-2{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, red, blue);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, green, orange);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
+
